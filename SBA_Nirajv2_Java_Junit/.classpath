@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Java/Area of Shapes/src"/>
+	<classpathentry kind="src" path="Java/AresofShape/src"/>
+	<classpathentry kind="src" path="Java/Java Pre-assessment/AresofShape/src"/>
+	<classpathentry kind="src" path="Java/Java Pre-assessment/LoungeAccess/src"/>
+	<classpathentry kind="src" path="Java/Java Pre-assessment/SBA Answer/AresofShape/src"/>
+	<classpathentry kind="src" path="Java/Java Pre-assessment/SBA Answer/LoungeAccess/src"/>
+	<classpathentry kind="src" path="Java/Java Pre-assessment/SBA Answer/WriteToFile/src"/>
+	<classpathentry kind="src" path="Java/Java Pre-assessment/WriteToFile/src"/>
+	<classpathentry kind="src" path="Java/livingandnon/src"/>
+	<classpathentry kind="src" path="Java/LoungeAccess/src"/>
+	<classpathentry kind="src" path="Java/String Parsing/src"/>
+	<classpathentry kind="src" path="Java/WriteToFile/src"/>
+	<classpathentry kind="src" path="Java/Zip Code/src"/>
+	<classpathentry kind="output" path="Java/AresofShape/bin"/>
+</classpath>

@@ -1,0 +1,100 @@
+import java.util.Scanner;
+
+public class Main {
+
+public static void main(String[] args) {
+
+// TODO Auto-generated method stub
+
+//declare your variables here
+
+String senc="";
+
+//complete the sentence to read the user input
+
+//HINT: one of the input streams
+
+Scanner s = new Scanner(System.in);
+
+System.out.println("Enter words that would make up a palindrome sentence (type exit as word if you are done):");
+
+//complete the code to read the word
+
+//add your code here to build the sentence
+
+//using the words provided by user
+
+while(true)
+
+{
+
+System.out.println("Enter your word:");
+
+String w = s.nextLine();
+
+if(w.equalsIgnoreCase("Exit"))
+
+{
+
+break;
+
+}
+
+else
+
+{
+
+senc = senc + w;
+
+}
+
+}
+
+senc = senc.replaceAll("[^a-zA-Z0-9\\s+]", "");
+
+// System.out.println(senc);
+
+String revSenc="";
+
+// System.out.println(senc.length());
+
+for(int i=senc.length()-1;i>=0;i--)
+
+{
+
+char letter = senc.charAt(i);
+
+// System.out.println(letter);
+
+revSenc = revSenc + letter;
+
+// System.out.println(revSenc);
+
+}
+
+if(senc.equalsIgnoreCase(revSenc))
+
+{
+
+System.out.println("The words make up a palindrome sentence");
+
+}
+
+else
+
+{
+
+System.out.println("The words *DO NOT* make up a palindrome sentence");
+
+}
+
+}
+
+}
+
+ 
+
+ 
+
+ 
+
