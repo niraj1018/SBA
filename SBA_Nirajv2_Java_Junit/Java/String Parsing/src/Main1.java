@@ -5,9 +5,9 @@ public class Main {
 	public static void main(String[] args) {	
 
 	System.out.println("String before change:" + string2Manipulate);	
-	//write your code here 
-	
-	System.out.println("String after change:" + );
-	System.out.println("Last position of Paper:" + );
+	string2Manipulate = string2Manipulate.trim().replace("Sam", "Bheem").replaceFirst("Paper", "Newspaper");
+	int lastIndex= string2Manipulate.lastIndexOf("Paper");
+	System.out.println("String after change:" + string2Manipulate);
+	System.out.println("Last position of Paper:" + lastIndex );
 	}
 }
